@@ -10,7 +10,15 @@
 * It should be a String.
 **/
 
+var firstName = "Ian";
+var lastName = "Bovard";
+var birthPlace = "San Jose, California";
 
+console.log("First Name: ", firstName);
+console.log("Last Name: ", lastName);
+console.log("Birth Place: ", birthPlace);
+
+console.log("Hello my name is", firstName + " " + lastName +". I was born in", birthPlace);
 
 /**
 * #2
@@ -22,7 +30,13 @@
 * Their values should be a Number
 **/
 
+var favoriteNumber = 27;
+var currentYear = 2016;
+var thatOnePrinceSong = 1999;
 
+console.log("Favorite Number: ", favoriteNumber);
+console.log("Current Year: ", currentYear);
+console.log("That one Prince song: ", thatOnePrinceSong);
 
 /**
 * #3
@@ -34,7 +48,15 @@
 * Their values should be a Boolean
 **/
 
+var isDaytime = false;
+var isLeftHanded =true;
+var inHawaii = true;
+var isHappyCoding = true;
 
+console.log("Is is daytime?", isDaytime);
+console.log("Are you left handed?", isLeftHanded);
+console.log("Do you live in Hawaii?", inHawaii);
+console.log("Are you happy coding?", isHappyCoding);
 
 /**
 * #4
@@ -45,7 +67,11 @@
 * Their values should be a Null value
 **/
 
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
 
+console.log("Enrolled at DevLeage:", enrolledAtDevLeague);
+console.log("Completed Friday prep:", completedFridayPrep);
 
 /**
 * #5a
@@ -56,7 +82,9 @@
 * which can be found along the west coast of The United States.
 **/
 
-
+var westCoast = ["California", "Oregon", "Washington"];
+console.log("The West Coast states are:", westCoast);
+console.log("One of the West Coast states is:", westCoast[1]);
 
 /**
 * #5b
@@ -67,7 +95,9 @@
 * Have at least ten even values in this array.
 **/
 
-
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+console.log(evenNumbers);
+console.log(evenNumbers[4]);
 
 /**
 * #6a Arithmetic
@@ -80,9 +110,17 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
+var sumOfNumbers = 19 + 45 + 3;
+console.log("The sum of 19, 45, and 3 is:", sumOfNumbers);
 
+var diffOfNumbers = 486 - 30 -78;
+console.log("The difference of 486, 30, and 78 is:", diffOfNumbers);
 
+var prodOfNumbers = 4 * 6 * 5;
+console.log("The product of 4, 6, and 5 is:", prodOfNumbers);
 
+var divOfNumbers = 20 / 5 / 2;
+console.log("The dividend of 20, 5, and 2 is:", divOfNumbers);
 /**
 * #6b Comparisons & Logic
 * Variables with the outcome of a comparison operation:
@@ -101,7 +139,14 @@
 *   operator(==) vs triple comparison operator(===).
 */
 
+var isEqual = "Tacocat" === "tacocat";
+console.log(isEqual);
 
+var doubleComparison = "Three" == 3;
+console.log(doubleComparison);
+
+var tripleComarison = "Fifty" === 50;
+console.log(tripleComarison);
 
 /**
 * #6c Assignments
@@ -119,7 +164,25 @@
 *   it can only test that you declared the variable by giving it the right name.
 */
 
-
+var generalContainer;
+generalContainer = "Booyah!";
+console.log(generalContainer);
+generalContainer = 465;
+console.log(generalContainer);
+generalContainer = generalContainer +=4;
+console.log(generalContainer);
+generalContainer = generalContainer -=4;
+console.log(generalContainer);
+generalContainer = generalContainer *=2;
+console.log(generalContainer);
+generalContainer = generalContainer /=5;
+console.log(generalContainer);
+generalContainer = "Forty" === 40;
+console.log(generalContainer);
+generalContainer = ["Megaman", "Protoman", "Bass"];
+console.log(generalContainer[0]);
+generalContainer = 33 + 44;
+console.log(generalContainer);
 
 /**
 * #7a
@@ -133,8 +196,6 @@
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
 
-
-
 /**
 * #7b
 * Declare Functions
@@ -144,4 +205,3 @@
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
-
