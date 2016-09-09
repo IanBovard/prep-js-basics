@@ -195,7 +195,17 @@ console.log(generalContainer);
 *
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
+//function jump(height){
+	//return "You jumped " + height + "feet high!";
+//}
+	//var jumpResult = jump(9);
+	//console.log(jumpResult);
+	function jump(height){
 
+		return "You jumped " + height + " feet high!";
+	}
+	var jumpResult = jump(9);
+	console.log(jumpResult);
 /**
 * #7b
 * Declare Functions
