@@ -215,3 +215,10 @@ console.log(generalContainer);
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
+function cook(ingredient1, ingredient2, recipeName){
+	return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!";
+
+
+}
+var combine = cook("Meat", "bread", "sandwich");
+console.log(combine);
